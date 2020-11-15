@@ -1,8 +1,8 @@
 # Affine Parameter Sharing for Channel Search
 
-## Introduction
 This repository contains the implementation of our paper ["Revisiting Parameter Sharing for Automatic Neural Channel Number Search"](https://proceedings.neurips.cc/paper/2020/file/42cd63cb189c30ed03e42ce2c069566c-Paper.pdf) in NeurIPS 2020.
-The overall framework of our approach is presented in the figure below:
+We propose affine parameter sharing as a general framework to quantitatively analyze and better utilize parameter sharing for channel number search problems.
+An overall illustration is presented below:
 ![model](./assets/model.png)
 
 ## Dependencies
