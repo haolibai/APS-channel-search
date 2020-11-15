@@ -1,0 +1,6 @@
+torch==1.1.0
+numpy=1.14.5
+torchvision=0.2.2
+matplotlib==3.0.3
+Pillow==5.4.1
+tensorboardX==1.6
