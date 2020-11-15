@@ -1,12 +1,9 @@
-# NOTE: Jiaxing Check and reproduce.
 ## ============================= resnet cifar10 learner  ============================
 # NOTES:
 # 1. This is the setting on a single GPU;
 # 2. To perform searching without FLOPs constraint, remove --flops
-# 3. To search for APS-O, set --ft_proj_lr 0.0;
-# 4. To search for APS-I, set: 1) --ft_proj_lr 0.0, 2) --overlap 0.0, 3) --max_width (sum of candidate_width)
-# 5. To perform search with other FLOPs constraint, change --max_flops.
-# 6. You can use `--beam_search` with `--top_seq N` to greedily decode top-N models from the controller;
+# 3. To perform search with other FLOPs constraint, change --max_flops.
+# 4. You can use `--beam_search` with `--top_seq N` to greedily decode top-N models from the controller;
 #    Alternatively, you can use `--n_test_archs N` to randomly sample N architectures.
 
 python main.py \

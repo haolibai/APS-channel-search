@@ -210,7 +210,7 @@ class TProjection(nn.Module):
                 cum_c += int((1 - self.overlap) * self.candidate_width[id_p])
             init_W[cum_c:cum_c+curr_c, :] = torch.eye(curr_c)
         W.data = init_W
-        W.data += torch.randn(W.shape) * 1e-2
+        W.data += torch.randn(W.shape) * 1e-3
 
         return W
 

@@ -1,6 +1,6 @@
 # ============================= resnet ilsvrc search  ============================
-# This is the setting on 8 Nvidia-V100.
-# For other variants of searching, please refer to start_saerch_resnet_cifar.sh
+# This is the setting on 8 NVidia-V100.
+# For other variants of searching, please refer to start_search_resnet_cifar.sh
 
 python -u -m torch.distributed.launch --nproc_per_node=8 main.py \
   --gpu_id 0,1,2,3,4,5,6,7 \

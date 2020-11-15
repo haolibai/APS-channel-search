@@ -1,5 +1,5 @@
 # ============================= mobilenet v2 ilsvrc decode  ============================
-# This is the setting on 8 Nvidia-V100.
+# This is the setting on 8 NVidia-V100.
 
 python -u -m torch.distributed.launch --nproc_per_node=8 main.py \
   --gpu_id 0,1,2,3,4,5,6,7 \
